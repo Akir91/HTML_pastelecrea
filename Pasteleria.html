@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pastelería">
+    <meta name="keywords" content="pastel,pasteles,pastelería,fiesta,cumpleaños">
+    <meta name="author" content="Jesus Castañeda Espinosa">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pasteLeX</title>
+    <style>table,th,td {border: 1px solid black;}</style>
+</head>
+<body>
+    <h1>Pastelería</h1>
+    <a href="http://www.pastelecrea.com.mx/"><img src="./Logo.png" alt="Logo pastelería" width="300"></a>
+    <br>
+    <hr>
+    <a href="./Pastelero.html" target="blank" ><button>Acceso a pastelero</button></a>
+    <hr>
+    <h2>Sabores a escoger:</h2>
+    <table style="width:25%">
+        <tr>
+            <th>Sabor</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Fresa</td>
+            <td>$90</td>
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td>Pistache</td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td>Tres leches</td>
+            <td>$120</td>
+        </tr>
+    </table>
+    <h2>Adornos a escoger:</h2>
+    <table>
+        <tr>
+            <th>Adorno</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Velita individual</td>
+            <td>$2</td>
+        </tr>
+        <tr>
+            <td>Vela número</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>Vela figura</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td>Imagen comestible</td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td>Mensaje escrito</td>
+            <td>$20</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <h2>Realiza tu pedido: </h2>
+    <form action="" id="formCliente">
+        <h3>Personaliza tu pastel:</h3>
+        <dl>
+            <dt><h4>Tus datos:</h4></dt>
+                <dd><label for="Nombre">Nombre: </label>
+                    <input type="text" name="Nombre" id="Nombre"><br><br></dd>
+                <dd><label for="Tel">Teléfono: </label>
+                    <input type="tel" name="Tel" id="Tel" maxlength="10"><br><br></dd>
+                <dd><label for="correo">Correo: </label>
+                    <input type="email" name="correo" id="correo"><br><br></dd>
+            <dt><h4>Sabores (puedes elegir los que quieras, serán a partes iguales)</h4></dt>
+                <dd><input type="checkbox" id="sabor1" name="sabor1" value="chocolate">
+                    <label for="sabor1">Chocolate </label><br></dd>
+                <dd><input type="checkbox" id="sabor2" name="sabor2" value="fresa">
+                    <label for="sabor2">Fresa </label><br></dd>
+                <dd><input type="checkbox" id="sabor3" name="sabor3" value="vainilla">
+                    <label for="sabor3">Vainilla </label><br></dd>
+                <dd><input type="checkbox" id="sabor4" name="sabor4" value="pistache">
+                    <label for="sabor4">Pistache </label><br></dd>
+                <dd><input type="checkbox" id="sabor5" name="sabor5" value="tresLeches">
+                    <label for="sabor5">Tres leches </label><br></dd>
+            <dt><h4>Adornos (puedes elegir los que desees)</h4></dt>
+                <dd><input type="checkbox" id="adorno1" name="adorno1" value="velaIndividual">
+                    <label for="adorno1">Velita individual </label><br></dd>
+                <dd><input type="checkbox" id="adorno2" name="adorno2" value="velaNumero">
+                    <label for="adorno2">Vela de número </label></dd>
+                <dd><input type="checkbox" id="adorno3" name="adorno3" value="velaFigura">
+                    <label for="adorno3">Vela de figura </label></dd>
+                <dd><input type="checkbox" id="adorno4" name="adorno4" value="Imagen">
+                    <label for="adorno4">Imagen comestible </label></dd>
+                <dd><input type="checkbox" id="adorno5" name="adorno5" value="Mensaje">
+                    <label for="adorno5">Mensaje escrito </label></dd>
+            <dt><h4>Comentarios para tu pedido:</h4></dt>
+                <dd><label for="comentarios">Descripción: </label><br>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="8" style="resize: none;"></textarea></dd><br>
+                <dd><input type="reset"> <input type="submit"></dd>
+        </dl>
+    </form>
+</body>
+<footer>
+    <hr>
+    <table style="border: 0ch; width: 100%;">
+        <tr style="border: 0ch;">
+            <th style="border: 0ch;">Dirección:</th>
+            <th style="border: 0ch; width: 400px"></th>
+            <th style="border: 0ch;">Teléfono:</th>
+        </tr>
+        <tr>
+            <td style="border: 0ch;"><p>Calle Merida #50 <br> Colonia Trabajadores <br> Coyoacan, CDMX C.P.07264</p></td>
+            <td style="border: 0ch; width: 400px"></td>
+            <td style="border: 0ch;"><p>55 3120 4896 <br>Horario de atención: Lunes a Domingo de 09:00 a 21:00 horas</p></td>
+        </tr>
+    </table>
+</footer>
+</html>
